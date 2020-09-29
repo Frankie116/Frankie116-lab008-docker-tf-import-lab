@@ -5,7 +5,7 @@ resource "docker_container" "web" {
     
 
     ports {                       
-        external = 8084
+        external = 8081
         internal = 80
     }                             
 
